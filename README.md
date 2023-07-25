@@ -41,6 +41,6 @@ __Contraintes à respecter:__
 __Ressources:__
 
 - Comparaison des résultats selon algorithme avec [JSBENCH](https://jsben.ch/w0L2c).
-- [Fiche_d'investigation_de_fonctionnalité](/Projet%207/ressources/assets/Fiche%20d'investigation%20de%20fonctionnalité%20-%20OCR%20Projet%207%20-%20With%20Annexe.pdf)
-- [Algorigramme](/Projet%207/ressources/assets/Algorigramme.pdf)
+- [Fiche_d'investigation_de_fonctionnalité](ressources/assets/Fiche%20d'investigation%20de%20fonctionnalité%20-%20OCR%20Projet%207%20-%20With%20Annexe.pdf)
+- [Algorigramme](ressources/assets/Algorigramme.pdf)
 - Maquette [Figma](https://www.figma.com/file/LY5VQTAqnrAf0bWObOBrt8/Les-petits-plats---Maquette-2.0?type=design&node-id=0-1&mode=design&t=tNxyc1PKnhXUYsH9-0)
