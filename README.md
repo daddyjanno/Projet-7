@@ -13,7 +13,7 @@ __Les petits plats - Projet 7__
 
 Création de deux algorithmes de recherche pour obtenir la version la plus optimale.
 
-- Voir le [projet](https://github.com/daddyjanno/OpenClassRooms/tree/main/Projet%207)
+- Voir le [projet](https://github.com/daddyjanno/Projet-7)
 
 __Description du projet :__
 
