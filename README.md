@@ -25,7 +25,7 @@ __Objectifs__
 
 - Respecter le design de la maquette [Figma](https://www.figma.com/file/LY5VQTAqnrAf0bWObOBrt8/Les-petits-plats---Maquette-2.0?type=design&node-id=0-1&mode=design&t=tNxyc1PKnhXUYsH9-0).
 - Réaliser deux algorithmes distincts, le premier avec une boucle native (for, while...) et l'autre avec une boucle fonctionnelle (forEach, filter...).
-- Définir quel algorithme fonctionne le mieux et donne le plus de résultats avec [JSBENCH](https://jsben.ch/g7php).
+- Définir quel algorithme fonctionne le mieux et donne le plus de résultats avec [JSBENCH](https://jsben.ch/w0L2c).
 
 __Contraintes à respecter:__
 
@@ -40,7 +40,7 @@ __Contraintes à respecter:__
 
 __Ressources:__
 
-- Comparaison des résultats selon algorithme avec [JSBENCH](https://jsben.ch/Mi8CT).
+- Comparaison des résultats selon algorithme avec [JSBENCH](https://jsben.ch/w0L2c).
 - [Fiche_d'investigation_de_fonctionnalité](/Projet%207/ressources/assets/Fiche%20d'investigation%20de%20fonctionnalité%20-%20OCR%20Projet%207%20-%20With%20Annexe.pdf)
 - [Algorigramme](/Projet%207/ressources/assets/Algorigramme.pdf)
 - Maquette [Figma](https://www.figma.com/file/LY5VQTAqnrAf0bWObOBrt8/Les-petits-plats---Maquette-2.0?type=design&node-id=0-1&mode=design&t=tNxyc1PKnhXUYsH9-0)
