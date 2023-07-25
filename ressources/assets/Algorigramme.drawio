@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" modified="2023-07-19T13:06:05.285Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="36j9op2n6qLKrtmUTYN5" version="21.6.2" type="device">
+  <diagram name="Page-1" id="3ZTBtATNtgGOqjwvlHBy">
+    <mxGraphModel dx="2390" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-1" value="On récupère l&#39;intégralité des recettes via la fonction fetchData(), on appelle la méthode mainSearch() sans valeur de recherche afin d&#39;afficher l&#39;intégralité des recettes.&amp;nbsp;&lt;br&gt;On crée également les tableaux contenant les ingrédients, les appareils et les ustensiles correspondants aux recettes.&lt;br&gt;&lt;br&gt;recipes = fetchData()&lt;br&gt;mainSearch()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="183" y="10" width="461" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7ZFlWZAHxf570gTZ66vD-1" target="7ZFlWZAHxf570gTZ66vD-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-44" value="La recherche correspond au nom / à la description / aux ingrédients d&#39;une ou plusieurs recettes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="207.5" y="640" width="411" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-45" value="Stockage des recettes dans un nouvel Array filteredRecipes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="278" y="810" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-46" value="Affichage d&#39;un message d&#39;erreur &quot;Aucune recette ne correspond à votre recherche&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="920" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.464;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7ZFlWZAHxf570gTZ66vD-44" edge="1" target="7ZFlWZAHxf570gTZ66vD-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="530" as="sourcePoint" />
+            <mxPoint x="730" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-50" value="NON" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="650" y="680" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7ZFlWZAHxf570gTZ66vD-44" target="7ZFlWZAHxf570gTZ66vD-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="570" as="sourcePoint" />
+            <mxPoint x="580" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-52" value="OUI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="414" y="750" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-53" value="Affichage des recettes contenues dans filteredRecipes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="183" y="920" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7ZFlWZAHxf570gTZ66vD-45" target="7ZFlWZAHxf570gTZ66vD-53" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="790" as="sourcePoint" />
+            <mxPoint x="390" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7ZFlWZAHxf570gTZ66vD-53" edge="1" target="BdmQEmT_dH3vHU1gEL2p-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="710" as="sourcePoint" />
+            <mxPoint x="270" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="950" />
+              <mxPoint x="40" y="380" />
+              <mxPoint x="240" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZFlWZAHxf570gTZ66vD-56" value="Nouvelle recherche" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="900" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BdmQEmT_dH3vHU1gEL2p-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Utilisation de la barre de recherche ou des tags&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="146" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BdmQEmT_dH3vHU1gEL2p-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.497;exitY=0.996;exitDx=0;exitDy=0;entryX=0.495;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="7ZFlWZAHxf570gTZ66vD-1" target="BdmQEmT_dH3vHU1gEL2p-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="250" as="sourcePoint" />
+            <mxPoint x="490" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdmQEmT_dH3vHU1gEL2p-9" value="- Si au moins 3 caractères sont rentrés dans la barre de recherche, tri des recettes via la fonction mainSearch(input)&lt;br&gt;&lt;br&gt;- Si moins de 3 caractères, on appelle la fonction mainsSearch(&quot;&quot;)&lt;br&gt;&lt;br&gt;&lt;br&gt;filteredRecipesBySearch = mainSearch()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="300" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BdmQEmT_dH3vHU1gEL2p-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BdmQEmT_dH3vHU1gEL2p-9" target="7ZFlWZAHxf570gTZ66vD-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="600" as="sourcePoint" />
+            <mxPoint x="420" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdmQEmT_dH3vHU1gEL2p-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdmQEmT_dH3vHU1gEL2p-4" target="BdmQEmT_dH3vHU1gEL2p-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="260" as="sourcePoint" />
+            <mxPoint x="423" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdmQEmT_dH3vHU1gEL2p-13" value="Tri des recettes via tags présents dans le tableau selectedElements&lt;br&gt;&lt;br&gt;Fonction searchByTags&lt;br&gt;&lt;br&gt;filteredRecipesByTags" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BdmQEmT_dH3vHU1gEL2p-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="BdmQEmT_dH3vHU1gEL2p-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="220" as="sourcePoint" />
+            <mxPoint x="680" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdmQEmT_dH3vHU1gEL2p-15" value="filteredRecipesBySearch = filteredRecipesByTags" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="500" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BdmQEmT_dH3vHU1gEL2p-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BdmQEmT_dH3vHU1gEL2p-13" target="BdmQEmT_dH3vHU1gEL2p-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="470" as="sourcePoint" />
+            <mxPoint x="680" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

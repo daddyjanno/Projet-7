@@ -1,0 +1,29 @@
+.tag {
+  display: flex;
+  justify-content: flex-start;
+  // flex-direction: column;
+  width: 200px;
+
+  &__wrapper {
+    display: flex;
+    margin-left: 14px;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD15B;
+    color: black;
+    // width: 100px;
+    gap: 10px;
+    padding: 6px 15px 6px 15px;
+    margin-top: 6px;
+    margin-left: 14px;
+    font-family: "manrope", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+  &__delete {
+    cursor: pointer;
+  }
+}

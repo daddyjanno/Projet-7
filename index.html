@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./ressources/style/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="icon" type="image/png" href="./ressources/assets/favicon.png" />
+  <title>Les petits plats</title>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html"><img src="./ressources/assets/logo/Logo.png" alt="Les petits plats logo" id="logo"></a>
+  </header>
+
+  <main>
+    <section class="search">
+      <div class="search__content">
+        <h1 class="search__title">Cherchez parmi plus de 1500 recettes <br>du quotidien, simples et délicieuses</h1>
+          <form class="search__bar">
+            <div class="search__inputContainer">
+              <input type="text" id="search__input" class="search__input" placeholder="Rechercher une recette, un ingrédient, ..." pattern="[a-zA-Z0-9]+">
+              <i class="fa-solid fa-square-xmark search__reset"></i>
+            </div>
+            <button class="search__button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+      </div>
+    </section>
+
+    <section class="dropdown">
+      <div class="ingredients__wrapper">
+        <div class="dropdown__container ingredients__container">
+          <button class="dropdown__button button ingredients__button">Ingrédients
+            <i class="sort__down fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="ingredients__list dropdown__list dropdown__close">
+            <div class="dropdown__header ingredients__header" >
+              <form class="dropdown__headerContainer ingredients__headerContainer">
+                <input type="text" class="dropdown__input ingredients__input" pattern="[a-zA-Z0-9]+">
+                <button type="submit" class="fa-solid fa-magnifying-glass dropdown__searchBtn ingredient__searchBtn"></button>
+              </form>
+            </div>
+            <div class="ingredients__selected dropdown__selected"></div>
+            <ul class="dropdown__options ingredients__options"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="apparels__wrapper">
+        <div class="dropdown__container apparels__container">
+          <button class="dropdown__button button apparels__button">Appareils
+            <i class="sort__down fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="apparels__list dropdown__list dropdown__close">
+            <div class="dropdown__header apparels__header" >
+              <form class="dropdown__headerContainer apparels__headerContainer">
+                <input type="text" class="dropdown__input apparels__input" pattern="[a-zA-Z0-9]+">
+                <button class="fa-solid fa-magnifying-glass dropdown__searchBtn apparels__searchBtn"></button>
+              </form>
+            </div>
+            <div class="apparels__selected dropdown__selected"></div>
+            <ul class="dropdown__options apparels__options"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="ustensils__wrapper">
+        <div class="dropdown__container ustensils__container">
+          <button class="dropdown__button button ustensils__button">Ustensiles
+            <i class="sort__down fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="ustensils__list dropdown__list dropdown__close">
+            <div class="dropdown__header ustensils__header" >
+              <form class="dropdown__headerContainer ustensils__headerContainer">
+                <input type="text" class="dropdown__input ustensils__input" pattern="[a-zA-Z0-9]+">
+                <button class="fa-solid fa-magnifying-glass dropdown__searchBtn ustensils__searchBtn"></button>
+              </form>
+            </div>
+            <div class="ustensils__selected dropdown__selected"></div>
+            <ul class="dropdown__options ustensils__options"></ul>
+          </div>
+        </div>
+      </div>
+
+
+      <h2 class="recipes__number">recettes</h2>
+    </section>
+
+    <section class="tags__wrapper">
+      <div class="tag__wrapper"></div>
+    </section>
+
+    <section class="recipes__section">
+
+    </section>
+
+
+  </main>
+
+  <script type="module" src="./ressources/scripts/pages/index.js"></script>
+
+</body>
+</html>
