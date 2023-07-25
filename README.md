@@ -1,4 +1,4 @@
-![Logo Les petits plats](/Projet%207/ressources/assets/logo/Les%20petits%20plats.png)
+![Logo Les petits plats](ressources/assets/logo/Les%20petits%20plats.png)
 
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
