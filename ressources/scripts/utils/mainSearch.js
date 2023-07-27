@@ -287,7 +287,8 @@ function resetForm(recipes) {
   reset.addEventListener("click", async () => {
     searchInput.value = "";
     filteredRecipesBySearch = recipes
-    recipes = searchByTag(selectedElements, recipes)
+    recipes = searchByTag(selectedElements, recipes);
+    manageTags();
     renderRecipeCard(recipes);
     renderRecipesNumber(recipes);
     reset.style.opacity = 0
