@@ -58,13 +58,22 @@ function getFilteredRecipes(recipes, searchValue) {
   for (let i = 0; i < 1e6; i++) {
     output+=i
   }
-  recipes = recipes.filter((recipe) =>
-    recipe.name.toLowerCase().includes(searchValue) ||
-    recipe.description.toLowerCase().includes(searchValue) ||
-    recipe.ingredients.some((ingredient) => ingredient.ingredient.toLowerCase().includes(searchValue))
-  )
+  let filteredRecipes = [];
+
+  for (let recipe of recipes) {
+    if (recipe.description.toLowerCase().includes(searchValue) || recipe.name.toLowerCase().includes(searchValue)) {
+      filteredRecipes.push(recipe);
+    } else {
+      for (const ingredient of recipe.ingredients) {
+        if (ingredient.ingredient.toLowerCase().includes(searchValue)) {
+          filteredRecipes.push(recipe);
+          break;
+        }
+      }
+    }
+  }
   console.timeEnd("algorithme");
-  return recipes;
+  return filteredRecipes;
 }
 
 function renderElementLi(element, type) {
